@@ -3,6 +3,8 @@
     height: 350px;
 }
 .card {
+    display: flex;
+    flex-direction: column;
     position: relative;
     height: 500px;
 }
@@ -10,5 +12,12 @@
 .d-block {
     position: relative;
     height: 600px;
+}
+.btn-primary {
+    display: flex;
+    justify-content: flex-end;
+}
+.card-body {
+    flex: 1;
 }
 

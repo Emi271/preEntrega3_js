@@ -10730,6 +10730,8 @@ textarea.form-control-lg {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   position: relative;
   height: 500px;
 }
@@ -10737,6 +10739,15 @@ textarea.form-control-lg {
 .d-block {
   position: relative;
   height: 600px;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-body {
+  flex: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

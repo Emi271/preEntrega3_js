@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/fdca832c8b.js" crossorigin="anonymous"></script>
     <title>Cupid's Chocolates</title>
 </head>
-<body style="background-image: url(../img/galaxia.jpg);">
+<body style="background-image: url(../img/galaxia.jpg);" class="px-0 mx-0">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img  src="../img/Logo-Mei Tata.jpg" alt="logo" class="logo"> Cupid's Chocolates</a>
@@ -34,28 +34,36 @@
         </div>
       </nav>
       <!-- Acá termina la nav -->
-    <main>
-<h2 class="fs-1 text-white text-center m-3"> Todos los personajes aquí</h2>
-<div class="container">
-  <div class="col-sm-4 col-lg-10 col-10">
-  <button  id="ver-favoritos-btn"  class="btn btn-primary ">Ver mis personajes favoritos</button>
-  <p class="text-white"> Para eliminar de favoritos un personaje toca el botón correspondiente en la tarjeta del personaje</p>
-</div>
-<div class="col-sm-4 col-lg-4 col-4">
-  <form class="d-flex" role="search">
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Buscar</button>
-  </form>
-</div>
-<!-- este va a ser el div que contiene los personajes-->
-   <div class="row"></div>
-</div>
-<div class="container-fluid">
-  <h1></h1>
-<div class="row">
-  <h3 class="text-white">Mis personajes favoritos</h3>
-</div>
-</div>
+    <main class="px-0 mx-0"> 
+      <button class="btn btn-primary m-3" type="button"
+      data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Mostrar Favoritos</button>
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1"
+      id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="staticBackdropLabel">Favoritos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div><p>Para eliminar de favoritos un personaje toca el botón correspondiente en la tarjeta del personaje</p></div>
+        <div id="favoritosDiv"></div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-lg-4 col-4">
+      <form class="d-flex align-items-center" role="search">
+        <input
+          id="search"
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </form>
+    </div>
+    <div class="container">
+      <div class="col-sm-4 col-lg-4 col-4"></div>
+      <!-- este va a ser el div que contiene los personajes-->
+      <div class="row" id="divPersonajes"></div>
+    </div>
 <!-- esto es una practica xD  -->
 <!-- <div>
   <h1 class="text-white">Tu nombre es:  <span id="nombre">?</span></h1>

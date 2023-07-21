@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "nombre": "Xian HaoJi",
+        "descripcion": "Es el protagonista del anime, él comió un pastel que encontró en la azotea de su colegio, \n para su desgracia el no sabía que el chocolate del pastel posee una magia cupido en dónde las demás personas que \n coman el pastel se varán atraídas por él",
+        "imagen": "../../img/Xian Hao JI.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Xue Li",
+      "descripcion": "Amiga de la infancia de Hao Yi, está profundamente enamorada de él y no soporta verlo con otras chicas.",
+      "imagen":"../../img/Xue Li.webp"
+    },
+    {
+        "id":3,
+        "nombre": "Hua Yushan",
+        "descripcion": "Cantante profesional y amiga de la infancia de Lv Zhe",
+        "imagen":"../../img/Hua Yushan.webp"
+    },
+    {
+     "id": 4,
+     "nombre": "Lin Yuan",
+     "descripcion": "Lin Yuan es la tercera chica que se le aparece a Haoyi en Cupid's Chocolates. /n Después de comer el pastel de chocolate, fantaseó con ser la esposa de Haoyi y la madre de sus dos hijos como familia.",
+     "imagen": "../../img/Lin Yuan.webp"
+    },
+    {"id": 5,
+    "nombre":"Mei Tata",
+    "descripcion": "Mei Tata es un cupido en entrenamiento que en su primera misión fue /n enviado a buscar personas con deseos de encontrar el amor y concederles en el proceso en Cupid's Chocolates.",
+    "imagen":"../../img/Mei Tata.webp"},
+    {
+        "id": 6,
+        "nombre":"Tang Xuan",
+        "descripcion": "Tang Xuan es una chica muy atlética y la segunda en acercarse a Jiang /n Haoyi afirmando ser su novia.  es la primera chica en acercarse a Haoyi después de comer /n un trozo del pastel de chocolate dado por este último. Su fantasía implica que esté /n embarazada del hijo de Haoyi, lo que causa mucha decepción con su legión de admiradores tanto que comienzan a atacar a Haoyi.",
+        "imagen":"../../img/Tang Xuan.webp"
+    },
+    {
+        "id": 7,
+        "nombre":"Xia ZiTong",
+        "descripcion": "Es la primera chica en acercarse a Haoyi después de comer un trozo /n del pastel de chocolate dado por este último. Su fantasía implica que esté /n embarazada del hijo de Haoyi, lo que causa mucha decepción con su legión de admiradores tanto que comienzan a atacar a Haoyi.",
+        "imagen":"../../img/XiaZiTong.jpg"
+        },
+    {
+        "id": 8,
+        "nombre":"Jian Tianming",
+        "descripcion":"Padre de Jian Haoyi",
+        "imagen":"../../img/Jiang Tianming.webp"
+    },
+    {
+        "id": 9,
+        "nombre":"Mrs Jiang",
+        "descripcion":"Mamá de Jian Haoyi",
+        "imagen":"../../img/Mrs Jiang.webp"
+    },
+    {
+        "id": 10,
+        "nombre":"Sol Dongyun",
+        "descripcion":"",
+        "imagen": "../../img/SolDongyun.webp"
+    },
+    {
+        "id": 11,
+        "nombre": "Xiao Zixin",
+        "descripcion": "",
+        "imagen":"../../img/Xiao Zixin.webp"
+    },
+    {
+        "id": 12,
+        "nombre": "Ji Ran",
+        "descripcion": "Profesora particular de Jian Haoyi",
+        "imagen":"../../img/Ji Ran.webp"
+    }]
